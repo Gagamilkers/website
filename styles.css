@@ -94,11 +94,16 @@ article h2 {
     -webkit-text-stroke: .8px black;
     font-weight: bold;
     font-size: 130%;
-    margin: 0 auto;
+    margin: auto;
     padding: 6%;
     position: relative;
     top: -5px;
-
+}
+.galaxy {
+   position: relative;
+   margin: auto;
+   margin-left: auto;
+   right: 25px;
 }
 div {
    border: 2.5px red;
