@@ -22,6 +22,7 @@
 /* body and page container */
 body {
    height: 100%;
+   max-width: 100%;
 }
 .container {
    text-align: center;
@@ -95,15 +96,15 @@ div {
 }
 /* footer section */
 footer {
-   color: whitesmoke;
    text-shadow: 1px 1px 2px black;
    text-align: center;
    margin: auto;
 }
-footer p {
+.browser {
    position: absolute;
    left: 15em;
    margin: auto;
+   color: red;
 }
 footer p1 {
    position: relative;
@@ -125,8 +126,6 @@ footer p1:hover {
    position: relative;
    bottom: 60%;
    left: 50%;
-transform: translate(-50%, -50%);
--ms-transform: translate(-50%, -50%);
 background-color: transparent;
 color: whitesmoke;
 font-size: 16px;
