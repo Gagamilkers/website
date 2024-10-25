@@ -42,7 +42,6 @@ body {
 header {
    width: 100%;
    padding: 6px;
-   font-size: 150%;
    text-shadow: 1px 1px 2px black;
    -webkit-text-stroke: .5px black;
    -webkit-text-stroke-width: 5%;
@@ -56,6 +55,7 @@ header div {
 }
 .WOMAN {
    color: white;
+   font-size: 270%;
    -webkit-animation: colorchange 10s infinite alternate;
 }
 @-webkit-keyframes colorchange {
@@ -75,7 +75,7 @@ header div {
 /* main content */
 article h2 {
    color: whitesmoke;
-   font-size: 16px;
+   font-size: 180%;
    text-align: center;
    text-shadow: 1px 1px 2px black;
    -webkit-text-stroke: .5px black;
