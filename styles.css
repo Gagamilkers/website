@@ -8,11 +8,10 @@
  */
  /* reset styles */
  article, body, div, footer, header, h1, h2, h3, p {
-    border: 0;
-    padding: 6px;
-    text-align: center;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
     cursor: help;
-    margin: auto;
     }
 }
 /* body and page container */
@@ -61,6 +60,7 @@ article h2 {
    -webkit-text-stroke: .5px black;
    -webkit-text-stroke-width: 5%;
    margin: auto;
+   padding: 6px 10px;
 }
 article p {
     color: whitesmoke;
@@ -73,6 +73,8 @@ article p {
 }
 div {
    border: 2.5px red;
+   margin: auto;
+   padding: 6px 10px
 }
 /* footer section */
 footer {
