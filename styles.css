@@ -31,6 +31,8 @@ body {
    padding: 25px 10px;
    text-align: center;
    margin: auto;
+   display: flex;
+   flex-wrap: wrap;
 }
  head style {
    position: fixed;
@@ -135,4 +137,13 @@ cursor: crosshair;
 }
 .container .btn:hover {
 background-color: red;
+}
+
+@media (max-width: 600px) {
+   body {
+      font-size: 0.875rem;
+   }
+   .container {
+      padding: 10px;
+   }
 }
