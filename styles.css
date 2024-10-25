@@ -7,7 +7,7 @@
    HTML5 and CSS3 Illustrated Unit D, Skills Review
  */
  /* reset styles */
- article, body, div, footer, header, h1, h2, h3, p {
+* {
     border: 0px;
     margin: 0px;
     padding: 0px;
@@ -17,7 +17,6 @@
 /* body and page container */
 .container {
    text-align: center;
-   margin: 0 auto 0 auto;
    position: relative;
    top: 11em;
    padding: 25px 10px;
@@ -90,6 +89,8 @@ footer p {
    margin: auto;
 }
 footer p1 {
+   position: relative;
+   bottom: -400px;
   color: whitesmoke;
   text-align: center;
     text-shadow: 1px 1px 2px black;
