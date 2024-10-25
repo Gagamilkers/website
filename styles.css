@@ -47,16 +47,25 @@ header {
 }
 
 header div {
-   color: white;
-   text-shadow: 1px 1px 2px black;
-   -webkit-text-stroke: .5px black;
-   -webkit-text-stroke-width: 5%;
-   font-size: 20px;
    text-align: center;
-   margin: auto;
+   margin: 0 auto;
 }
-header div:hover {
-   color: chartreuse;
+.WOMAN {
+   color: white;
+   -webkit-animation: colorchange 10s infinite alternate;
+}
+@-webkit-keyframes colorchange {
+   0% { color: red; }
+   10% { color: orange; }
+   20% { color: yellow;}
+   30% { color: greenyellow; }
+   40% { color: aqua; }
+   50% { color: blue; }
+   60% { color: blueviolet; }
+   70% { color: purple; }
+   80% { color: pink; }
+   90% { color: deeppink; }
+   100% { color: red; }
 }
 
 /* main content */
@@ -93,13 +102,11 @@ footer {
 }
 footer p {
    position: absolute;
-   bottom: -20em;
    left: 15em;
    margin: auto;
 }
 footer p1 {
    position: relative;
-   bottom: -500px;
   color: whitesmoke;
   text-align: center;
     text-shadow: 1px 1px 2px black;
