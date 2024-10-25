@@ -36,7 +36,8 @@ header {
    text-shadow: 1px 1px 2px black;
    -webkit-text-stroke: .5px black;
    -webkit-text-stroke-width: 5%;
-   text-align: center;  
+   text-align: center; 
+   margin: auto; 
 }
 
 header div {
