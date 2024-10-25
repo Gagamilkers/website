@@ -83,7 +83,7 @@ article h2 {
    margin: auto;
    padding: 6px 10px;
 }
-article p {
+.description {
     color: whitesmoke;
     text-align: center;
     -webkit-text-stroke: .8px black;
@@ -105,20 +105,22 @@ footer {
    margin: auto;
 }
 .browser {
+   font-size: 180%;
+   font-weight: bold;
    position: absolute;
-   left: 15em;
-   margin: auto;
+   text-align: center;
+   margin: 0 auto;
    color: red;
+   padding 6%
 }
 footer p1 {
    position: relative;
   color: whitesmoke;
   text-align: center;
     text-shadow: 1px 1px 2px black;
-     text-size-adjust: 10px;
-        -webkit-text-stroke: .5px black;
+           -webkit-text-stroke: .5px black;
         -webkit-text-stroke-width: 5%;
-        font-size: 35px;
+        font-size: 300%;
         font-weight: bold;
         text-decoration: underline 5% red;
         margin: auto;
@@ -128,12 +130,10 @@ footer p1:hover {
 }
 .container .btn {
    position: relative;
-   bottom: 60%;
-   left: 50%;
 background-color: transparent;
 color: whitesmoke;
 font-size: 16%;
-padding: 10px;
+padding: 1%;
 border: none;
 cursor: crosshair;
 }
