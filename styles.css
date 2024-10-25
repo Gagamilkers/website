@@ -12,6 +12,7 @@
     padding: 6px;
     text-align: center;
     cursor: help;
+    margin: auto;
     }
 }
 /* body and page container */
@@ -22,6 +23,7 @@
    top: 11em;
    padding: 25px 10px;
    text-align: center;
+   margin: auto;
 }
  head style {
    position: fixed;
