@@ -60,7 +60,7 @@ header div {
 }
 .WOMAN {
    color: white;
-   font-size: 200%;
+   font-size: 190%;
    -webkit-animation: colorchange 10s infinite alternate;
 }
 @-webkit-keyframes colorchange {
@@ -80,7 +80,7 @@ header div {
 /* main content */
 article h2 {
    color: whitesmoke;
-   font-size: 180%;
+   font-size: 160%;
    text-align: center;
    text-shadow: 1px 1px 2px black;
    -webkit-text-stroke: .5px black;
