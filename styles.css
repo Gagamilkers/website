@@ -53,6 +53,11 @@ header div {
    text-align: center;
    margin: 0 auto;
 }
+.home {
+   position: relative;
+   top: -50px;
+   margin: auto;
+}
 .WOMAN {
    color: white;
    font-size: 270%;
