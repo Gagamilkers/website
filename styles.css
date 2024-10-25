@@ -131,7 +131,7 @@ footer p1 {
     text-shadow: 1px 1px 2px black;
            -webkit-text-stroke: .5px black;
         -webkit-text-stroke-width: 5%;
-        font-size: 200%;
+        font-size: 100%;
         font-weight: bold;
         text-decoration: underline 5% red;
 }
