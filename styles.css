@@ -119,12 +119,14 @@ footer {
 }
 footer p1 {
    margin-bottom: auto;
+   position: relative;
+   top: 140px;
   color: whitesmoke;
   text-align: center;
     text-shadow: 1px 1px 2px black;
            -webkit-text-stroke: .5px black;
         -webkit-text-stroke-width: 5%;
-        font-size: 150%;
+        font-size: 200%;
         font-weight: bold;
         text-decoration: underline 5% red;
 }
