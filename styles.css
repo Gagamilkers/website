@@ -88,8 +88,9 @@ article p {
     text-align: center;
     -webkit-text-stroke: .8px black;
     font-weight: bold;
-    font-size: 20px;
-    margin: auto;
+    font-size: 180%;
+    margin: 0 auto;
+    padding: 6%;
 
 }
 div {
