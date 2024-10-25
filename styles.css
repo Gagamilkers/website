@@ -110,7 +110,7 @@ footer {
    font-size: 140%;
    font-weight: bold;
    position: relative;
-   top: 80px;
+   top: 120px;
    margin-left: auto;
    text-align: center;
    margin: 0 auto;
@@ -120,7 +120,7 @@ footer {
 footer p1 {
    margin-bottom: auto;
    position: relative;
-   top: 140px;
+   top: 120px;
   color: whitesmoke;
   text-align: center;
     text-shadow: 1px 1px 2px black;
