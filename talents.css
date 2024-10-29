@@ -1,0 +1,60 @@
+* {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    cursor: help;
+    }
+
+    html {
+      height: 100%;
+    }
+
+/* body and page container */
+body {
+    height: 100%;
+    max-width: 100%;
+ }
+ .container {
+text-align: center;
+margin: auto;
+padding: 6px 6px 6px;
+ }
+ .couple {
+    position: relative;
+    right: 30%;
+    top: 25px;
+    margin-left: auto;
+    border: 3px dashed red;
+    max-width: 20%;
+    height: auto;
+ }
+
+ /* header */
+ .people {
+    -webkit-text-stroke: .5px black;
+    font-weight: bold;
+    color: white;
+    font-size: 190%;
+    -webkit-animation: colorchange 10s infinite alternate;
+ }
+ @-webkit-keyframes colorchange {
+    0% { color: red; }
+    10% { color: orange; }
+    20% { color: yellow;}
+    30% { color: greenyellow; }
+    40% { color: aqua; }
+    50% { color: blue; }
+    60% { color: blueviolet; }
+    70% { color: purple; }
+    80% { color: pink; }
+    90% { color: deeppink; }
+    100% { color: red; }
+ }
+ .RM {
+    color: whitesmoke;
+    font-weight: bold;
+    position: relative;
+    right: 30%;
+    top: 30px;
+ }

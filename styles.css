@@ -1,0 +1,166 @@
+/* 
+   Big J's Deep Dish Pizza style sheet 
+   Filename: styles.css
+
+   Author:   
+   Date:     
+   HTML5 and CSS3 Illustrated Unit D, Skills Review
+ */
+ /* reset styles */
+* {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    cursor: help;
+    }
+
+    html {
+      height: 100%;
+    }
+
+/* body and page container */
+body {
+   height: 100%;
+   max-width: 100%;
+}
+.container {
+   text-align: center;
+   position: relative;
+   top: 11em;
+   padding: 25px 10px;
+   text-align: center;
+   margin: auto;
+   display: flex;
+   flex-wrap: wrap;
+}
+ head style {
+   position: fixed;
+}
+
+/* headings */
+header {
+   width: 100%;
+   padding: 6px;
+   text-shadow: 1px 1px 2px black;
+   -webkit-text-stroke: .5px black;
+   -webkit-text-stroke-width: 5%;
+   text-align: center; 
+   margin: auto; 
+}
+
+header div {
+   text-align: center;
+   margin: 0 auto;
+}
+.home {
+   position: relative;
+   top: -50px;
+   margin: auto;
+}
+.WOMAN {
+   color: white;
+   font-size: 190%;
+   -webkit-animation: colorchange 10s infinite alternate;
+}
+@-webkit-keyframes colorchange {
+   0% { color: red; }
+   10% { color: orange; }
+   20% { color: yellow;}
+   30% { color: greenyellow; }
+   40% { color: aqua; }
+   50% { color: blue; }
+   60% { color: blueviolet; }
+   70% { color: purple; }
+   80% { color: pink; }
+   90% { color: deeppink; }
+   100% { color: red; }
+}
+
+/* main content */
+article h2 {
+   color: whitesmoke;
+   font-size: 160%;
+   text-align: center;
+   text-shadow: 1px 1px 2px black;
+   -webkit-text-stroke: .5px black;
+   -webkit-text-stroke-width: 5%;
+   margin: auto;
+   padding: 6px 10px;
+}
+.description {
+    color: whitesmoke;
+    text-align: center;
+    -webkit-text-stroke: .8px black;
+    font-weight: bold;
+    font-size: 130%;
+    margin: auto;
+    padding: 6%;
+    position: relative;
+    top: -5px;
+}
+.galaxy {
+   position: relative;
+   margin: auto;
+   margin-left: auto;
+   right: 25px;
+}
+div {
+   border: 2.5px red;
+   margin: auto;
+   padding: 6px 10px
+}
+/* footer section */
+footer {
+   text-shadow: 1px 1px 2px black;
+   text-align: center;
+   margin: auto;
+}
+.browser {
+   font-size: 120%;
+   font-weight: bold;
+   position: relative;
+   top: 120px;
+   margin-left: auto;
+   text-align: center;
+   margin: 0 auto;
+   color: red;
+   padding 10%
+}
+footer p1 {
+   margin-bottom: auto;
+   position: relative;
+   top: 120px;
+  color: whitesmoke;
+  text-align: center;
+    text-shadow: 1px 1px 2px black;
+           -webkit-text-stroke: .5px black;
+        -webkit-text-stroke-width: 5%;
+        font-size: 130%;
+        font-weight: bold;
+        text-decoration: underline 5% red;
+}
+footer p1:hover {
+   color: blue;
+}
+.container .btn {
+   position: relative;
+background-color: transparent;
+color: whitesmoke;
+font-size: 12%;
+padding: 1%;
+border: none;
+cursor: crosshair;
+}
+.container .btn:hover {
+background-color: red;
+}
+
+@media (max-width: 600px) {
+   body {
+      font-size: 0.875rem;
+   }
+   .container {
+      padding: 10px;
+   }
+}
