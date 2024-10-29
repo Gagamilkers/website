@@ -31,8 +31,8 @@ padding: 6px 6px 6px;
  }
  .me {
    position: relative;
-   right: 30%;
-   top: 80px;
+   left: 10.5%;
+   top: 45px;
    margin-left: auto;
    border: 3px ridge rgb(251, 255, 0);
    max-width: 20%;
@@ -42,8 +42,8 @@ padding: 6px 6px 6px;
 color: whitesmoke;
 font-weight: bold;
 position: relative;
-right: 30%;
-top: 320px;
+left: 13%;
+top: 280px;
 }
 .container:hover {
 transform: scale(3);
@@ -52,6 +52,14 @@ position: relative;
 text-align: center;
 left: 90%;
 top: 150px;
+}
+.DP:hover {
+   transform: scale(3);
+   border: none;
+   position: relative;
+   text-align: center;
+   right: 30%;
+   bottom: 60px;
 }
 
  /* header */
