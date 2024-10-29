@@ -25,11 +25,26 @@ padding: 6px 6px 6px;
     right: 30%;
     top: 25px;
     margin-left: auto;
-    border: 3px dotted rgb(251, 255, 0);
+    border: 3px ridge rgb(251, 255, 0);
     max-width: 20%;
     height: auto;
  }
-
+ .me {
+   position: relative;
+   right: 30%;
+   top: 80px;
+   margin-left: auto;
+   border: 3px ridge rgb(251, 255, 0);
+   max-width: 20%;
+   height: auto;
+ }
+.droopypuffs {
+color: whitesmoke;
+font-weight: bold;
+position: relative;
+right: 30%;
+top: 320px;
+}
 .container:hover {
 transform: scale(3);
 border: none;
@@ -65,5 +80,5 @@ top: 150px;
     font-weight: bold;
     position: relative;
     right: 30%;
-    top: 30px;
+    top: 150px;
  }
