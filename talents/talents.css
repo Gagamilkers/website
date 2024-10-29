@@ -15,7 +15,7 @@ body {
     height: 100%;
     max-width: 100%;
  }
- .container {
+header {
 text-align: center;
 margin: auto;
 padding: 6px 6px 6px;
@@ -29,6 +29,15 @@ padding: 6px 6px 6px;
     max-width: 20%;
     height: auto;
  }
+
+.container:hover {
+transform: scale(3);
+border: none;
+position: relative;
+text-align: center;
+left: 90%;
+top: 150px;
+}
 
  /* header */
  .people {
