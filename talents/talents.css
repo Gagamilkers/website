@@ -52,6 +52,7 @@ position: relative;
 text-align: center;
 left: 90%;
 top: 150px;
+z-index: 999;
 }
 .DP:hover {
    transform: scale(3);
@@ -60,6 +61,7 @@ top: 150px;
    text-align: center;
    right: 30%;
    bottom: 60px;
+   z-index: 999;
 }
 
  /* header */
