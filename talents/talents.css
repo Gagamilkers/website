@@ -39,11 +39,6 @@ padding: 6px 6px 6px;
    height: auto;
  }
 .droopypuffs {
-color: whitesmoke;
-font-weight: bold;
-position: relative;
-left: 13%;
-top: 280px;
 }
 .container:hover {
 transform: scale(3);
@@ -84,11 +79,4 @@ z-index: 999;
     80% { color: pink; }
     90% { color: deeppink; }
     100% { color: red; }
- }
- .RM {
-    color: whitesmoke;
-    font-weight: bold;
-    position: relative;
-    right: 30%;
-    top: 150px;
  }
